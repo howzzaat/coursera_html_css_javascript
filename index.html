@@ -5,7 +5,35 @@
   <title>Internal Links</title>
 </head>
 <body>
-  <input type="text" id="cname"/>
+  <form>
+    <input type="text" id="cname" value="Sameer"/>
+    <input type="radio" id="gender" value="Male"/>
+    <input type="button" id="submit" value="Submit" />
+  </form>
+  <div class="form-group">
+    <label for="cname" >Customer Name:</label>
+    <input type="text" class="form-control" id="cname" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="plan">Plan:</label>
+    <input type="checkbox" class="form-control" id="plan" placeholder="">
+  </div>
+  <div class="form-group">
+    <label for="browsers">Browsers:</label>
+    <input list="browser" class="form-control" placeholder="List of Browsers">
+    <datalist id="browser" >
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+  </div>
+
   <div>Dear all,
   <span>I took this really cool course
   </span></div>
