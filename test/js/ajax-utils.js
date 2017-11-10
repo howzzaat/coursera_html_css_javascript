@@ -1,3 +1,4 @@
+//This is a IIFE - Immediately invoked function expression
 (function (global) {
 
 // Set up a namespace for our utility
